@@ -312,7 +312,7 @@ This tutorial outlines the setup of the pre-requisite Microsoft Azure architectu
 
 
 <p>
-26) On the header bar, select <strong>File > New</strong>.  Then, paste the prompt provided in the <strong>prerequisites</strong> section of this demonstration. <br />
+26) On the header bar, select <strong>File > New</strong>.  Then, paste the prompt provided in this text document https://drive.google.com/file/d/1-auybwRQDAw4wtEO2-DSK2EDU9KFZUH7/view?usp=sharing. <br />
   <br />
 <img src="https://i.imgur.com/cCHwxb0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <br />
 <img src="https://i.imgur.com/HxM0u22.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <br />
