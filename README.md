@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the setup of the pre-requisite Microsoft Azure architecture for Active Directory.<br />
+<h1>Active Directory: Deploying Active Directory & Creating Users with PowerShell in the Cloud (Azure)(2/3)</h1>
+This tutorial outlines the setup of the pre-requisite Microsoft Azure architecture for Active Directory & the creation of Users in Active Directory using PowerShell.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -17,14 +17,17 @@ This tutorial outlines the setup of the pre-requisite Microsoft Azure architectu
 - Windows Server 2022
 - Windows 10 (21H2)
   
-<h2>High-Level Environment Setup Steps</h2>
+<h2>High-Level Setup & Deployment Steps</h2>
 
-- Set up a Domain Controller in Microsoft Azure
-- Set up Client-1 in Microsoft Azure
-- Checking Connectivity
+- Install Active Directory on the Domain Controller VM
+- Create a Domain Admin user within the domain
+- Join Client-1 (VM #2) with the new domain (mydomain.com)
+- Set up Remote Desktop for non-administrative users on Client-1
+- Create additional users using PowerShell
+- Log on to Client-1 with a randomly generated user from PowerShell
 
 
-<h2>Environment Set-Up Steps</h2>
+<h2>Setup & Deployment Steps</h2>
 
 <p>
 1) Log into <strong>dc-1</strong> and select <strong>"Add Roles and Features"</strong> in the Server Manager Dashboard.<br />
